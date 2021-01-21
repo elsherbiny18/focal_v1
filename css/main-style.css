@@ -1,0 +1,462 @@
+/*start global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.clear{
+    clear: both;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*end global */
+
+/*start header */
+
+.header .slider{
+    background-color: bisque;
+    background: url("../images/slide3.jpg");
+    background-size: cover;
+    height: 650px;
+    margin: 0;
+    overflow: hidden;
+
+}
+.header .slider h1{
+    width: 50%;
+    text-align: center;
+    margin: 220px auto 50px;
+    color: #ffffff;
+    font-size: 45px;
+    text-transform: uppercase;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.header .slider #slide{
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.header .navbar{
+    height: 60px;
+    background-color: #252e30;
+}
+.header .navbar ul{
+    float: right;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.header .navbar ul li{
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform:uppercase ;
+    cursor: pointer;
+    color: #ffffff;
+   
+}
+
+.header .navbar ul li:hover{
+    color: #2ecc71;
+}
+
+.header .navbar h2{
+    float: left;
+    color: #2ecc71;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.header .navbar span{
+    color: #ffffff;
+}
+.header .navbar .logo{
+    padding: 5px 10px;
+    background-color: #4b5456;
+    margin-right: 15px;
+}
+/*end header*/
+
+/*start 3divs*/
+.identical-divs #goals{
+    width: 31.33%;
+    float: left;
+    margin-top: 80px;
+    margin-right: 2%;
+}
+.identical-divs #goals h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #566366;
+}
+.identical-divs #goals p{
+    line-height: 25px;
+    color: #919191;
+
+}
+.identical-divs #goals p.first-one{
+    color: #2ecc71;
+}
+/*end 3divs*/
+
+/*start about me*/
+.about{
+    height: 550px;
+    margin-top: 70px;
+    background-color: #f2f2f1;
+}
+.about img {
+    height: 100%;
+    width: 35%;
+float: left;
+
+}
+.about .about-content{
+    width: 55%;
+    margin-top: 50px;
+    float: left;
+    margin-left: 5%;
+
+}
+.about .about-content h2{
+text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin:30px 0 0;
+    color: #566366;
+}
+.about .about-content p{
+margin: 30px 0;
+color: #919191;
+}
+.about .about-content .four-divs{
+    width: 43%;
+    float: left;
+    margin-right: 3%;
+  
+}
+.about .about-content .four-divs i{
+    float: left;
+    width: 5%;
+    margin-top: 30px;
+    margin-right: 12%;
+    color: #2ecc71;
+}
+.about .about-content .four-divs .men-about{
+    width: 80%;
+    float: left;
+}
+.about .about-content .four-divs .men-about h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin:30px 0 0;
+    color: #566366;
+}
+.about .about-content .four-divs p{
+    margin: 10px;
+}
+/*end about me*/
+
+/*start skills*/
+.skills{
+    margin-top: 70px;
+}
+.skills .my-skills{
+    width: 45%;
+    float: left;
+    margin-right: 8%;
+}
+.skills .my-skills h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #566366;
+}
+
+.skills .my-skills p{
+    margin: 30px 0;
+color: #919191;
+line-height: 25px;
+}
+
+.skills .my-skills button{
+    background: none;
+    color: #2ecc71;
+    padding: 10px 20px;
+    border: 1px solid #2ecc71;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills .my-prog{
+    width: 45%;
+    float: left;
+    margin-top: 40px;
+}
+.skills .my-prog h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #566366;
+    margin-bottom: 10px;
+}
+.skills .my-prog .pro{
+    width: 100%;
+    background-color: #f2f2f1;
+    height: 20px;
+    margin-bottom: 40px;
+}
+.skills .my-prog .pro span{
+    display: block;
+    line-height: 20px;
+    height: 100%;
+    color: #ffffff;
+    text-align: right;
+    background-color: #2ecc71;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*end skills*/
+
+
+/*start resume*/
+
+.resume{
+    background-color: #f2f2f1;
+    margin-top: 50px;
+    text-align: center;
+    padding:40px 0;
+}
+.resume h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #566366;
+    
+}
+.resume p{
+    display: block;
+    margin: 30px auto;
+color: #919191;
+line-height: 28px;
+width: 70%;
+
+}
+.resume button{
+    background: none;
+    color: #2ecc71;
+    padding: 5px 5px;
+    border: 1px solid #2ecc71;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+/*end resume*/
+
+/*start testimonilas*/
+.testimonials{ margin-top: 70px;}
+.testimonials .education .edu{
+    float: left;
+    width: 46%;
+    margin-right: 8.5%;
+}
+.testimonials .education .edu h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #566366;
+}
+.testimonials .education .edu p{
+display: block;
+margin: 30px 0;
+color: #919191;
+line-height: 28px;
+width: 100%;
+font-size: 15px;
+}
+
+.testimonials .education .courses{
+    width: 45%;
+    float: left;
+    margin-top: 68px;
+}
+.testimonials .education .courses .decourses{
+    margin-bottom: 100px;
+}
+
+.testimonials .education .courses h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #566366;
+}
+.testimonials .education .courses p{
+    font-size: 15px;
+    margin-top: 15px;
+    color: #919191;
+    line-height: 25px;
+}
+
+.testimonials .education .courses span{
+    display: block;
+    background-color: #2ecc71;
+    padding: 3px;
+    margin: 15px 0 20px;
+    width: fit-content;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.testimonials .education .courses hr{
+    color: #cccccc;
+    margin-bottom: 30px ;
+}
+.testimonials .education hr{
+    color: #cccccc;
+    width: 100%;
+    margin-bottom:70px ;
+}
+/*end testimonials*/
+
+/*strat portfolio*/
+
+.portfolio{
+    margin-top: 70px  ;
+}
+.portfolio h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #566366;
+    text-align: center;
+    margin-top: 40px;
+}
+.portfolio p{
+    
+margin: 30px auto;
+color: #919191;
+line-height: 28px;
+font-size: 15px;
+text-align: center;
+width: 80%;
+}
+.portfolio .gallery img{
+    width: 30%;
+    height: 199.55px;
+    margin-right:2%;
+    margin-top: 20px;
+}
+/*end portfolio*/
+/*start contact */
+
+.contact{
+    margin-top: 100px;
+    background-color: #252e30;
+    color: #ffffff;
+    height: 650px;
+    padding-bottom: 40px;
+}
+.contact .info{
+    width: 45%;
+    float: left;
+}
+.contact .info h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.contact .info p{
+    margin-bottom: 50px;
+    color: #919191;
+}
+.contact form{
+    float: left;
+    width: 45%;
+    margin-left:4%;
+    margin-top: 150px;
+}
+.contact form label{
+    display: block;
+    text-transform: capitalize;
+    color: #cccccc;
+    margin: 20px 0 10px;
+}
+.contact form input{
+    padding: 10px;
+    background-color: #4b5456;
+    width: 100%;
+    border: 0;
+    color: #ffffff;
+}
+.contact form  textarea{
+    width: 100%;
+    background-color: #4b5456;
+    height: 166px;
+    padding: 10px;
+    color: #ffffff;
+    border: 0;
+
+}
+.contact form .submit{
+    background-color: #191f21;
+    color: #ffffff;
+    width: 25%;
+    margin-top: 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*end conatct me*/
+
+/*start footer*/
+.footer{
+    height: 90px;
+    background-color: #191f21;
+    text-align: center;
+    overflow: hidden;
+}
+.footer p{
+    margin-top: 20px;
+    color: #40484a;
+    text-transform: capitalize;
+    display: block;
+}
+.footer i{
+    display: inline-block;
+    background-color: #4b5456; 
+    color: #191f21;
+    border-radius:13px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 6px;
+}
+.footer i:hover{
+    color: #ffffff;
+}
+/*end footer*/
